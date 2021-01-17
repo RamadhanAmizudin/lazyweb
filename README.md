@@ -11,6 +11,7 @@ This web application is a demonstration of common server-side application flaws.
 - Insecure File Upload
 - Arbitrary Session Assignment
 - Broken Authorization
+- .git Folder Disclousure (if you clone directly to web root)
 
 Write Up
 =====================
