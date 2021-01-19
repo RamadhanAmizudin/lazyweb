@@ -6,7 +6,7 @@
     <div class="card-body">
       <h4 class="card-title">List Sites</h4>
       <h4 class="card-description">Our API is still in alpha stage, currently support login mechanism only</h4>
-      <p class="card-text"><b>Endpoint</b>: http://sc-chal.tor.my/user/api.php</p>
+      <p class="card-text"><b>Endpoint</b>: http://{$smarty.server.HTTP_HOST}/user/api.php</p>
       Data:
       <div class="card-block bg-light">
         {$xml|nl2br}
