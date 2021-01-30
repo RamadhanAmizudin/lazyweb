@@ -17,6 +17,7 @@ This web application is a demonstration of common server-side application flaws.
 Write Up
 =====================
 - [LFI to RCE via PHAR](https://www.jasveermaan.com/index.php/2018/04/28/local-file-inclusion-lfi-to-remote-code-injection-rce-using-phar-wrapper/)
+- [Writeup](http://blog.pojiiix.tech/Lazy-Web-Write-Up)
 
 Notes
 =====================
