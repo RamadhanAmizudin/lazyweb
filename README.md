@@ -21,7 +21,9 @@ Write Up
 
 Notes
 =====================
-I've been using this web application as the technical assessment for the candidate who applied for the job.
+I've been using this web application as the technical assessment for the candidate who applied for the job. 
+
+After deploy the code, make sure to chown www-data:www-data to templates_c and user/avatar folder
 
 License
 =======
