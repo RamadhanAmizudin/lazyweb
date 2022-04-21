@@ -2,6 +2,11 @@ LazyWeb - Vulnerable Web Application
 =====================
 This web application is a demonstration of common server-side application flaws. Each of the vulnerabilities has its own difficulty rating.
 
+## Deployment
+```bash
+$ docker-compose up
+```
+
 ## Vulnerabilities
 - OS Command Injection
 - SQL Injection
@@ -29,7 +34,7 @@ License
 =======
 The MIT License (MIT)
 
-Copyright (c) 2021 Ahmad Ramadhan Amizudin
+Copyright (c) 2022 Ahmad Ramadhan Amizudin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
