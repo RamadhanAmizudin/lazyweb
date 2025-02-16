@@ -1,55 +1,44 @@
-LazyWeb - Vulnerable Web Application
-=====================
-This web application is a demonstration of common server-side application flaws. Each of the vulnerabilities has its own difficulty rating.
+# LazyWeb - Vulnerable Web Application
 
-## Deployment
-```bash
-$ docker-compose up
-```
+**LazyWeb** is a demonstration web application designed to showcase common server-side application vulnerabilities. Each vulnerability is categorized with its respective difficulty rating to provide a comprehensive learning experience for developers and security enthusiasts.
 
-## Vulnerabilities
+## Key Features
+- Demonstrates real-world vulnerabilities in web applications.
+- Ranges from basic to advanced security flaws, allowing users to test their skills at various levels.
+- Aimed at helping security professionals understand the nature of vulnerabilities and how to mitigate them.
+
+## Vulnerabilities Included
+The application includes the following vulnerabilities:
 - OS Command Injection
 - SQL Injection
-- XML External Entity Injection
-- Insecure Direct Object Reference
-- Local File Inclusion
+- XML External Entity Injection (XXE)
+- Insecure Direct Object Reference (IDOR)
+- Local File Inclusion (LFI)
 - Insecure File Upload
 - Arbitrary Session Assignment
 - Broken Authorization
 - Broken Authentication
-- .git Folder Disclousure (if you clone directly to web root)
+- .git Folder Disclosure (if cloned directly to web root)
 
-Write Up
-=====================
-- [LFI to RCE via PHAR](https://www.jasveermaan.com/index.php/2018/04/28/local-file-inclusion-lfi-to-remote-code-injection-rce-using-phar-wrapper/)
-- [Writeup](http://blog.pojiiix.tech/Lazy-Web-Write-Up)
+## Deployment Instructions
+To get started with the project, simply run the following command:
 
-Notes
-=====================
-I've been using this web application as the technical assessment for the candidate who applied for the job. 
+```bash
+docker-compose up
+```
 
-After deploy the code, make sure to chown www-data:www-data to templates_c and user/avatar folder
+This will set up the environment and start the application using Docker.
 
-License
-=======
-The MIT License (MIT)
+### Important Notes
+- Ensure that the `templates_c` and `user/avatar` directories have the correct ownership. After deploying, run:
+  
+  ```bash
+  sudo chown www-data:www-data templates_c user/avatar
+  ```
 
-Copyright (c) 2022 Ahmad Ramadhan Amizudin
+## Write-ups and Resources
+- [LFI to RCE via PHAR](https://www.jasveermaan.com)
+- [Writeup on Pojiiix](https://blog.pojiiix.tech)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
