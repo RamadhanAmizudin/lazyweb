@@ -10,6 +10,7 @@ This document contains the results of a comprehensive security code review of th
 - **Methodology:** Three-phase approach including reconnaissance, analysis, and adversarial validation
 - **Total Token:** 2.07M
 - **Total Cost:** RM 1.27
+- **Harness:** OpenCode v1.18.30
 
 ## Executive Summary
 The security review identified 6 critical vulnerabilities that pose significant security risks to the application:
