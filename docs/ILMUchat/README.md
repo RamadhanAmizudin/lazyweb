@@ -4,7 +4,8 @@
 This document contains the results of a comprehensive security code review of the LazyWeb PHP web application.
 
 ## Review Details
-- **Reviewer:** ILMUchat (ilmu-v3.1) provider: ILMUchat (https://www.ilmu.ai)
+- **Reviewer:** ILMUchat (ilmu-v3.1)
+- **Provider:** ILMUchat (https://www.ilmu.ai)
 - **Date Conducted:** September 13, 2026 at 11:46 PM Malaysia Time
 - **Scope:** Server-side vulnerabilities in the PHP web application
 - **Methodology:** Three-phase approach including reconnaissance, analysis, and adversarial validation
