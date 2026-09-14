@@ -9,7 +9,7 @@ This document contains the results of a comprehensive security code review of th
 - **Date Conducted:** September 13, 2026 at 11:46 PM Malaysia Time
 - **Scope:** Server-side vulnerabilities in the PHP web application
 - **Methodology:** Three-phase approach including reconnaissance, analysis, and adversarial validation
-- **Total Token:** 2.07M
+- **Total Token:** 2,063,106
 - **Total Cost:** RM 1.27
 - **Harness:** OpenCode v1.18.30
 
