@@ -4,7 +4,7 @@
 This document contains the results of a comprehensive security code review of the LazyWeb PHP web application.
 
 ## Review Details
-- **Reviewer:** MiMo (xiaomi/mimo-v2.5-pro)
+- **Reviewer:** MiMo (xiaomi/mimo-v2.5-pro, thinking level: high)
 - **Provider:** Xiaomi
 - **Date Conducted:** September 19, 2026 at 3:39 AM Malaysia Time
 - **Scope:** Server-side vulnerabilities in the PHP web application
